@@ -1,0 +1,68 @@
+.footer {
+    background-color: #e27d60;
+    padding: 20px 0;
+    text-align: center;
+    font: Lora;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contactSection, .hoursSection, .mailingListSection {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .contactSection {
+    text-align: left;
+  }
+  
+  .hoursSection {
+    text-align: left;
+  }
+  
+  .mailingListSection {
+    text-align: right;
+  }
+  
+  .socialIcons {
+    margin-top: 10px;
+  }
+  
+  .contactSection .socialIcons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .socialIcons a {
+    display: inline-block;
+  }
+  
+  .mailingListForm input {
+    padding: 8px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .mailingListForm button {
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
