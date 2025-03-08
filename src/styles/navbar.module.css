@@ -1,51 +1,111 @@
+/* general navbar css */
 .navbar {
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 100px;
-  }
-  
-  .logo a {
-    text-decoration: none;
-    font-size: 22pt;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .navLinks {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-    font-size: 18px;
-  }
-  
-  .navLinks li {
-    margin-right: 45px;
-  }
-  
-  .navLinks a {
-    text-decoration: none;
-    color: #fff;
-    /*font-weight: 500;*/
-    transition: color 0.3s ease;
-  }
-  
-  .navLinks a:hover, .logo a:hover {
-    color: #e27d60;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .navbar {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 675px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 25px 60px;
+  transition: background-image 0.5s ease-in-out;
+  margin: 0 auto;
+}
+/* set the height of the navbar for the homepage */
+.homeNavbar {
+  min-height: 900px;
+}
+/* logo & text css */
+.overlayContent {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%); 
+  text-align: center;
+  z-index: 2;
+  color: #fff;
+}
+/* header text css */
+.headerText {
+  font-size: 90px;
+  font-weight: bold;
+  margin-top: 150px;
+  color: #f8bcb2;
+}
+/* subtext css */
+.headerSubText {
+  font-size: 30px;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+  color: #c7b88b;
+  text-align: center;
+}
+/* size of the big logo */
+.headerImage {
+  width: 750px;
+  height: auto;
+}
+/* put shadow over background to make text stand out */
+.navbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+/* make sure links are in fron of background */
+.logo a, .navLinks {
+  position: relative;
+  z-index: 2;
+}
+/* home page nav link/logo */
+.logo a {
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 18pt;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+/* all links display css */
+.navLinks {
+  letter-spacing: 2px;
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+/* spacing of the links */
+.navLinks li {
+  margin-right: 35px;
+}
+/* color the page links */
+.navLinks a {
+  color: #fff;
+}
+/* hover */
+.navLinks a:hover, .logo a:hover {
+  color: #e95a24;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
       flex-direction: column;
       align-items: flex-start;
-    }
-    .navLinks {
+  }
+
+  .navLinks {
       flex-direction: column;
       width: 100%;
-    }
-    .navLinks li {
-      margin: 8px 0;
-    }
   }
-  
+
+  .navLinks li {
+      margin: 30px 0;
+  }
+}

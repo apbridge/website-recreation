@@ -1,0 +1,326 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* Make sure body and html take full width */
+}
+
+/* Section 1 Styles (White background) */
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    color: #a8a8a8;
+    height: 400px;
+    margin: 0 150px;
+}
+
+.h2Title,
+.s1desc {
+    color: #929090;
+}
+
+.imageBox1 {
+    margin-top: 20px;
+}
+
+.rollingImage {
+    width: 375px;
+    height: auto;
+}
+
+.section2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageBox2 {
+    position: relative;
+    width: 100%;
+}
+
+.doughnutsImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    height: 600px;
+
+}
+
+.overlayContent1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    /* Ensure text stands out on the image */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for readability */
+    border-radius: 10px;
+    width: 1600px;
+    height: 600px;
+    z-index: 1;
+}
+
+.sectionTitle {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    color: #f8bcb2;
+    font-size: 90px;
+}
+
+.sectionDescription {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #c7b88b;
+    font-size: 30px;
+}
+
+.menuButton1 {
+    background-color: #c7b88b;
+    ;
+    /* You can change this to fit your theme */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menuButton1:hover {
+    background-color: #9e8b6d;
+    /* Darker shade on hover */
+}
+
+/* Section 3 */
+/* General styling for section3 */
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates 3 equal-width columns */
+    gap: 30px;
+    /* Adds space between columns */
+    padding: 50px 0;
+    background-color: white;
+    margin: 0 150px;
+}
+
+/* Styling for each column */
+.col1,
+.col2,
+.col3 {
+    padding: 20px;
+    background-color: white;
+}
+
+/* Image styling */
+.imageBox3,
+.imageBox4,
+.imageBox5 {
+    overflow: hidden;
+}
+
+.decoratedImage,
+.breadImage,
+.sweetImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Title styling (h2) */
+.title {
+    font-size: 2rem;
+    color: #9b9999;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Paragraph styling (p) */
+.description {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Button styling */
+.menuButton2 {
+    background-color: #c7b88b;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.menuButton2:hover {
+    background-color: #9e8b6d;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .section3 {
+        grid-template-columns: 1fr;
+        /* Stack the columns on small screens */
+    }
+}
+/* Section 4*/
+.section4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageBoxSection4 {
+    position: relative;
+    width: 100%;
+}
+.peopleImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    height: 600px;
+}
+.overlayContent2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    /* Ensure text stands out on the image */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for readability */
+    border-radius: 10px;
+    width: 1600px;
+    height: 600px;
+    z-index: 1;
+}
+.section4Title {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    color: #f8bcb2;
+    font-size: 90px;
+}
+
+.section4Description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #c7b88b;
+    font-size: 30px;
+}
+.aboutButton3 {
+    background-color: #c7b88b;
+    ;
+    /* You can change this to fit your theme */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.aboutButton3:hover {
+    background-color: #9e8b6d;
+    /* Darker shade on hover */
+}
+/* Section 5 */
+.columns5 {
+    margin: 40px 250px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; /* Optional space between the columns */
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .imageBox6, .imageBox7 {
+    width: 100%;
+  }
+  
+  .pieImage, .people2Image {
+    width: 100%; /* Adjust this width to your desired size */
+    object-fit: cover; /* Ensure the images cover the space without distortion */
+  }
+  
+/* .columns {
+    margin: 40px 250px;
+    display: flex;
+    justify-content: center;
+    gap: 5px; 
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .imageBox6, .imageBox7 {
+    width: 100%;
+  }
+  .pieImage, .people2Image {
+    width: 500px; 
+    object-fit: cover; 
+  } */
+
+
+  /* section 6 */
+  
+  .leftSecTitle {
+    text-align: left;
+    color: #adacac;
+    margin: 0 250px;
+  }
+  .container4 {
+    display: flex;
+    align-items: center; /* Vertically center the image and text */
+    justify-content: space-between; /* Add space between the image and text */
+    margin: 0 250px;
+  }
+  
+  .imageBox7 {
+    flex: 1;
+  }
+  
+  .cupImage {
+    width: 100%; /* Adjust the width of the image */
+    height: auto;
+  }
+  
+  .text7 {
+    flex: 2;
+    margin-left: 20px; /* Add space between the image and text */
+    color: #a5a4a4;
+  }
+  
+  .middleSec,
+  .rightSec {
+    line-height: 1.5;
+  }
+  
+  

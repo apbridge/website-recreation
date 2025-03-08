@@ -1,5 +1,8 @@
 import styles from "../styles/footer.module.css";
-import { Link } from "react-router-dom";
+import instagram from "../assets/instagram.png";
+import pinterest from "../assets/pinterest.png";
+import twitter from "../assets/twitter.png";
+import facebook from "../assets/facebook.png"
 
 const Footer = () => {
     return (
@@ -12,17 +15,17 @@ const Footer = () => {
                     <p>hello@deettasbakery.com</p>
                     <p>630-548-4078</p>
                     <div className={styles.socialIcons}>
-                        <a href="https://www.instagram.com/deettasbakery" target="_blank" rel="noopener noreferrer">
-                            <img src="../assets/instagram.png" alt="Instagram" />
+                        <a href="https://www.instagram.com/deettasbakery" target="_blank">
+                            <img src={instagram} alt="instagram" className={styles.instagram} />
                         </a>
-                        <a href="https://www.pinterest.com/deettasbakery/" target="_blank" rel="noopener noreferrer">
-                            <img src="../assets/pinterest.png" alt="Pinterest" />
+                        <a href="https://www.pinterest.com/deettasbakery/" target="_blank">
+                            <img src={pinterest} alt="pinterest" className={styles.pinterest} />
                         </a>
-                        <a href="https://twitter.com/DeEttasBakery" target="_blank" rel="noopener noreferrer">
-                            <img src="../assets/twitter.png" alt="Twitter" />
+                        <a href="https://twitter.com/DeEttasBakery" target="_blank">
+                            <img src={twitter} alt="twitter" className={styles.twitter} />
                         </a>
-                        <a href="https://www.facebook.com/DeEttas-Bakery-132771540127503/?fref=ts" target="_blank" rel="noopener noreferrer">
-                            <img src="../assets/facebook.png" alt="Facebook" />
+                        <a href="https://www.facebook.com/DeEttas-Bakery-132771540127503/?fref=ts" target="_blank">
+                            <img src={facebook} alt="facebook" className={styles.facebook} />
                         </a>
                     </div>
                 </div>

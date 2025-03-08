@@ -1,10 +1,13 @@
 .footer {
-    background-color: #e27d60;
+    background-color: #e95a24;
     padding: 20px 0;
     text-align: center;
     font: Lora;
+    color: #fff;
   }
-  
+  .footer * {
+    color: #fff;
+  }
   .container {
     display: flex;
     justify-content: space-between;
@@ -64,5 +67,25 @@
   .copyright {
     margin-top: 20px;
     font-size: 14px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 15px; /* Adds space between each icon */
+    margin: 20px 0; /* Optional, adds margin to top and bottom */
+  }
+  
+  .socialIcons a {
+    display: inline-block; /* Ensures the anchor tags are inline-block */
+  }
+  
+  .socialIcons img {
+    width: 25px; /* Small size for the icons */
+    height: auto; /* Maintains aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .socialIcons img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icons when hovered */
   }
   

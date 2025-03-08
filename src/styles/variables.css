@@ -2,20 +2,20 @@
 body{
     /* color scheme */
     --primary-background-color: #000000;
-    --secondary-background-color: #646cff;
-    --third-background-color: #000;
+    --secondary-background-color: #e95a24;
+    --third-background-color: #fff;
     --dark-background-color: #191a1a;
-    --text-color: #fff;
+    --text-color: #000;
     --dark-text-color: #ffffff;
     --button-background-color: #1a1a1a;
     --button-text-color: #ffffff;
     --button-hover-background-color: var(--primary-background-color);
     --button-hover-text-color: #191a1a;
     --button-border-color: #ccc;
-    --link-color: #646cff;
+    --link-color: #e95a24;
     --link-hover-color: var(--text-color);
     /* font */
-    --font-family: 'Montserrat', sans-serif;
+    --font-family: 'Proximanova', sans-serif;
     /* break points */
     --mobile: 768px;
     --tablet: 1024px;

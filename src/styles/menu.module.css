@@ -1,0 +1,134 @@
+/* menu.module.css */
+
+/* Section 1: Overall container */
+.section1 {
+    padding: 20px;
+  }
+  
+  /* Navigation for selecting categories */
+  .menuNav {
+    margin-top: 30px;
+    display: flex; /* Align buttons in a row */
+    justify-content: center; /* Center the buttons */
+    gap: 15px; /* Add spacing between the buttons */
+    margin-bottom: 10px; /* Add space below the navigation */
+    flex-wrap: wrap; /* Allow buttons to wrap onto the next line */
+  }
+  
+  /* Style for individual buttons in the navigation */
+  .menuNav button {
+    background-color: #fff; /* White background for buttons */
+    padding: 10px 20px; /* Padding inside the buttons */
+    font-size: 25px; /* Font size for text inside buttons */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    color: #e95a24; /* text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color changes */
+  }
+  
+  /* Active button style */
+  .menuNav .active {
+    font-weight: bold; /* Make text bold for the active button */
+    text-decoration: underline; /* Underline the text */
+  }
+  
+  /* Content for each selected category (specials, cakes, etc.) */
+  .menuContent {
+    display: flex; /* Use flexbox for arranging the items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Add space between items */
+    justify-content: space-around; /* Distribute space evenly between items */
+  }
+  
+  /* Section 2: Social media and newsletter area */
+  .section2 {
+    text-align: center; /* Center the text */
+    margin: 40px 0; /* Add vertical spacing above and below */
+    padding: 20px; /* Add padding around the content */
+    background-color: #f8f8f8; /* Light background */
+  }
+  
+  /* Section 2 text style */
+  .section2 p {
+    font-size: 18px; /* Font size for the paragraph text */
+  }
+  
+  /* Styled line separating sections */
+  .styled-line {
+    border: 1px solid #ccc; /* Light border for the line */
+    margin: 40px 0; /* Add spacing above and below the line */
+  }
+  
+  /* Section 3 and Section 4: Gallery of cakes and baked goods */
+  .section3, .section4 {
+    padding: 20px; /* Padding around the content */
+    background-color: #f8f8f8; /* Light background */
+  }
+  
+  /* Heading for each gallery */
+  .section3 h3, .section4 h3 {
+    text-align: center; /* Center the heading */
+    font-size: 24px; /* Font size for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  /* Paragraph text below the heading */
+  .section3 p, .section4 p {
+    text-align: center; /* Center the text */
+    font-size: 18px; /* Font size for the text */
+    margin-bottom: 20px; /* Space below the paragraph */
+  }
+  
+  /* Style for images in the galleries */
+  .section3 img, .section4 img {
+    width: 100%; /* Make images take up full width available */
+    max-width: 300px; /* Limit maximum width to 300px */
+    margin: 10px; /* Add margin around the images */
+    border-radius: 8px; /* Round the corners of the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    transition: transform 0.3s ease; /* Smooth transformation when hovered */
+  }
+  
+  /* Hover effect on images in the galleries */
+  .section3 img:hover, .section4 img:hover {
+    transform: scale(1.05); /* Slight zoom effect when hovered */
+  }
+  
+  /* Section 5: Information area (allergen info, pricing info) */
+  .section5 {
+    padding: 20px; /* Padding around the content */
+    background-color: #f8f8f8; /* Light background */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Style for the image in section 5 */
+  .section5 img {
+    max-width: 150px; /* Limit maximum width to 150px */
+    margin-bottom: 20px; /* Add space below the image */
+  }
+  
+  /* Style for the paragraphs in section 5 */
+  .section5 p {
+    font-size: 16px; /* Font size for the text */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 10px; /* Add space below each paragraph */
+  }
+  
+  /* For larger screens: */
+  @media (min-width: 768px) {
+    /* Adjust layout for larger screens (tablet, desktop) */
+    .menuContent {
+      justify-content: flex-start; /* Align content to the left */
+    }
+  
+    /* Adjust image sizes for larger screens */
+    .section3 img, .section4 img {
+      max-width: 250px; /* Smaller max-width for images on larger screens */
+    }
+  }
+  
+  .styled-line {
+    border: 1px solid #e95a24; /* Change to your desired color */
+    margin: 40px 0; /* Add spacing above and below the line */
+}
+  
+  

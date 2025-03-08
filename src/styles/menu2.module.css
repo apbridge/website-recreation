@@ -1,0 +1,126 @@
+.menuContainer {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin-left: 50px; /* Add larger margin on the left */
+  margin-right: 50px; /* Add larger margin on the right */
+}
+
+.styledLine {
+  border: 1px solid #e95a24;
+  margin: 20px 0;
+}
+
+.section2,
+.section3,
+.section4,
+.section5 {
+  margin: 20px 50px; /* Larger margin on the left and right sides */
+}
+
+.sectionText {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.galleryTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.galleryText {
+  font-size: 18px;
+  color: #666;
+}
+
+.galleryImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Centers the images horizontally */
+}
+
+.galleryImages9 {
+  display: flex;
+  flex-wrap: wrap; /* Allows images to wrap onto the next line */
+  gap: 10px; /* Adds spacing between the images */
+  justify-content: center; /* Centers the images horizontally */
+}
+
+.cakeImage {
+  width: 30%; /* Makes each image take up 30% of the container width */
+  height: 300px; /* Maintains the aspect ratio of images */
+  object-fit: cover; /* Ensures the image is cropped to cover the area */
+}
+
+.bakedImage {
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.qContainer {
+  display: flex;
+  align-items: center; /* Aligns image and text vertically */
+}
+
+.qImage {
+  width: 100px; /* Set the size of the image */
+  height: auto;
+  margin-right: 20px; /* Space between the image and text */
+}
+
+.textContainer {
+  max-width: 1500px; /* Optional, to limit the text container width */
+}
+
+.sectionText {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.sectionText1 {
+  font-size: 20px;
+  color: #000;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.sectionText2 {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #e95a24;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;  /* Centers the icons horizontally */
+  gap: 15px; /* Adds space between each icon */
+  margin: 20px 0; /* Optional, adds margin to top and bottom */
+}
+
+.socialIcons a {
+  display: inline-block; /* Ensures the anchor tags are inline-block */
+}
+
+.socialIcons img {
+  width: 25px; /* Small size for the icons */
+  height: auto; /* Maintains aspect ratio */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  filter: invert(19%) sepia(92%) saturate(350%) hue-rotate(10deg);
+}
+
+.socialIcons img:hover {
+  transform: scale(1.1); /* Slightly enlarge the icons when hovered */
+}
