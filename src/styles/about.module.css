@@ -84,10 +84,77 @@
     border: 1px solid #e95a24;
     margin: 40px 0;
   }
+  /* section 3 */
   .section3 {
     margin: 40px 150px;
   }
   .s3h2 {
     color: #b1b0b0;
+  }
+  /* section 4 */
+  .section4 {
+    margin-top: 30px;
+  }
+  .s4p {
+    font-size: 20pt;
+    color: #b1b0b0;
+    text-align: center;
+  }
+  /* about.module.css */
+
+/* Section 4 - Align images horizontally */
+.section4 {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .s4p {
+    font-size:15pt;
+    color: #989898;
+    margin-bottom: 2rem;
+  }
+  
+  .imageRow {
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the images */
+    gap: 20px; /* Space between images */
+  }
+  
+  .pie2Image, .pie22Image, .foodImage, .fathersImage {
+    width: 100%;
+    max-width: 300px; /* Limit image size */
+    height: 200px;
+  }
+  /* section 5 */
+  .section5 {
+    margin: 40px 150px;
+  }
+  .qContainer {
+    display: flex;
+    align-items: center; /* Aligns image and text vertically */
+  }
+  
+  .qImage {
+    width: 100px; /* Set the size of the image */
+    height: auto;
+    margin-right: 20px; /* Space between the image and text */
+  }
+  
+  .textContainer {
+    max-width: 1500px; /* Optional, to limit the text container width */
+  }
+  
+  .sectionText {
+    font-size: 16px;
+    color: #767575;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .sectionText1 {
+    font-size: 20px;
+    color: #7a7979;
+    margin: 10px 0;
+    font-weight: bold;
   }
   

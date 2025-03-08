@@ -50,17 +50,25 @@ const AboutPage = () => {
 
       <div className={styles.section4}>
         <p className={styles.s4p}>Follow us on Instagram to keep up to date on events and new baked goods. @deettasbakery</p>
-        <img src={pie2} alt="Pie" className={styles.pie2Image} />
-        <img src={pie2} alt="Pie" className={styles.pie22Image} />
-        <img src={food} alt="Food" className={styles.foodImage} />
-        <img src={fathers} alt="Father's Day" className={styles.fathersImage} />
+        <div className={styles.imageRow}>
+          <img src={pie2} alt="Pie" className={styles.pie2Image} />
+          <img src={pie2} alt="Pie" className={styles.pie22Image} />
+          <img src={food} alt="Food" className={styles.foodImage} />
+          <img src={fathers} alt="Father's Day" className={styles.fathersImage} />
+        </div>
       </div>
+
       <hr className={styles.styledLine} />
 
       <div className={styles.section5}>
-        <img src={q} alt="Q" className={styles.qImage} />
-        <p className={styles.s5p}>Do you offer nut or gluten-free products?</p>
-        <p className={styles.s5p}>We do use multiple nut and flour types in our kitchen.  We are unable to promise an allergen-free product.  For those with allergies, we recommend that you use caution in coming in contact with products from DeEtta's Bakery.</p>
+        <div className={styles.qContainer}>
+          <img src={q} alt="Q" className={styles.qImage} />
+          <div className={styles.textContainer}>
+            <p className={styles.sectionText1}>Do you offer nut or gluten-free products?</p>
+            <p className={styles.sectionText}>We do use multiple nut and flour types in our kitchen. We are unable to promise an allergen-free product. For those with allergies, we recommend that you use caution in coming in contact with products from DeEtta's Bakery.</p>
+            <p className={styles.sectionText}>DeEtta's reserves the right to adjust/change prices at any time. Please confirm all pricing with DeEtta's prior to order placement.</p>
+          </div>
+        </div>
       </div>
     </Wrapper>
   );
