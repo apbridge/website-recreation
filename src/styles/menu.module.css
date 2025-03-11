@@ -1,8 +1,8 @@
 .menuContainer {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin-left: 50px; /* Add larger margin on the left */
-  margin-right: 50px; /* Add larger margin on the right */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .styledLine {
@@ -14,7 +14,7 @@
 .section3,
 .section4,
 .section5 {
-  margin: 20px 50px; /* Larger margin on the left and right sides */
+  margin: 20px 50px;
 }
 
 .sectionText {
@@ -37,20 +37,20 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: center; /* Centers the images horizontally */
+  justify-content: center;
 }
 
 .galleryImages9 {
   display: flex;
-  flex-wrap: wrap; /* Allows images to wrap onto the next line */
-  gap: 10px; /* Adds spacing between the images */
-  justify-content: center; /* Centers the images horizontally */
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .cakeImage {
-  width: 30%; /* Makes each image take up 30% of the container width */
-  height: 300px; /* Maintains the aspect ratio of images */
-  object-fit: cover; /* Ensures the image is cropped to cover the area */
+  width: 30%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .bakedImage {
@@ -61,18 +61,14 @@
 
 .qContainer {
   display: flex;
-  align-items: center; /* Aligns image and text vertically */
+  align-items: center;
 }
 
 .qImage {
-  width: 100px; /* Set the size of the image */
+  width: 100px;
   height: auto;
-  margin-right: 20px; /* Space between the image and text */
+  margin-right: 20px;
 }
-
-/* .textContainer {
-  /* max-width: 1500px; Optional, to limit the text container width */
-/* } */ 
 
 .sectionText {
   font-size: 16px;
@@ -87,6 +83,7 @@
   margin: 10px 0;
   font-weight: bold;
 }
+
 .sectionText2 {
   font-size: 16px;
   color: #333;
@@ -105,22 +102,22 @@ a:hover {
 
 .socialIcons {
   display: flex;
-  justify-content: center;  /* Centers the icons horizontally */
-  gap: 15px; /* Adds space between each icon */
-  margin: 20px 0; /* Optional, adds margin to top and bottom */
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
 }
 
 .socialIcons a {
-  display: inline-block; /* Ensures the anchor tags are inline-block */
+  display: inline-block;
 }
 
 .socialIcons img {
-  width: 25px; /* Small size for the icons */
-  height: auto; /* Maintains aspect ratio */
-  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  width: 25px;
+  height: auto;
+  transition: transform 0.3s ease;
   filter: invert(19%) sepia(92%) saturate(350%) hue-rotate(10deg);
 }
 
 .socialIcons img:hover {
-  transform: scale(1.1); /* Slightly enlarge the icons when hovered */
+  transform: scale(1.1);
 }

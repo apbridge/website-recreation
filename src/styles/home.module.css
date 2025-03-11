@@ -3,10 +3,9 @@ html {
     margin: 0;
     padding: 0;
     width: 100%;
-    /* Make sure body and html take full width */
 }
 
-/* Section 1 Styles (White background) */
+/* Section 1 */
 .section1 {
     display: flex;
     flex-direction: column;
@@ -62,10 +61,8 @@ html {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    /* Ensure text stands out on the image */
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent background for readability */
     border-radius: 10px;
     width: 100%;
     height: 600px;
@@ -88,8 +85,6 @@ html {
 
 .menuButton1 {
     background-color: #c7b88b;
-    ;
-    /* You can change this to fit your theme */
     color: white;
     padding: 10px 20px;
     font-size: 1rem;
@@ -100,23 +95,18 @@ html {
 
 .menuButton1:hover {
     background-color: #9e8b6d;
-    /* Darker shade on hover */
 }
 
 /* Section 3 */
-/* General styling for section3 */
 .section3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* Creates 3 equal-width columns */
     gap: 30px;
-    /* Adds space between columns */
     padding: 50px 0;
     background-color: white;
     margin: 0 150px;
 }
 
-/* Styling for each column */
 .col1,
 .col2,
 .col3 {
@@ -124,7 +114,6 @@ html {
     background-color: white;
 }
 
-/* Image styling */
 .imageBox3,
 .imageBox4,
 .imageBox5 {
@@ -139,7 +128,6 @@ html {
     object-fit: cover;
 }
 
-/* Title styling (h2) */
 .title {
     font-size: 2rem;
     color: #9b9999;
@@ -148,7 +136,6 @@ html {
     text-align: left;
 }
 
-/* Paragraph styling (p) */
 .description {
     font-size: 1.1rem;
     color: #666;
@@ -157,7 +144,6 @@ html {
     text-align: left;
 }
 
-/* Button styling */
 .menuButton2 {
     background-color: #c7b88b;
     color: white;
@@ -177,13 +163,12 @@ html {
     background-color: #9e8b6d;
 }
 
-/* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .section3 {
         grid-template-columns: 1fr;
-        /* Stack the columns on small screens */
     }
 }
+
 /* Section 4*/
 .section4 {
     position: relative;
@@ -196,6 +181,7 @@ html {
     position: relative;
     width: 100%;
 }
+
 .peopleImage {
     width: 100%;
     height: auto;
@@ -203,6 +189,7 @@ html {
     object-fit: cover;
     height: 600px;
 }
+
 .overlayContent2 {
     position: absolute;
     top: 50%;
@@ -210,15 +197,14 @@ html {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    /* Ensure text stands out on the image */
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent background for readability */
     border-radius: 10px;
     width: 100%;
     height: 600px;
     z-index: 1;
 }
+
 .section4Title {
     padding-top: 100px;
     margin-bottom: 10px;
@@ -232,10 +218,9 @@ html {
     color: #c7b88b;
     font-size: 30px;
 }
+
 .aboutButton3 {
     background-color: #c7b88b;
-    ;
-    /* You can change this to fit your theme */
     color: white;
     padding: 10px 20px;
     font-size: 1rem;
@@ -246,81 +231,62 @@ html {
 
 .aboutButton3:hover {
     background-color: #9e8b6d;
-    /* Darker shade on hover */
 }
+
 /* Section 5 */
 .columns5 {
     margin: 40px 250px;
     display: flex;
     justify-content: space-between;
-    gap: 50px; /* Optional space between the columns */
-  }
-  
-  .column {
-    flex: 1;
-  }
-  
-  .imageBox6, .imageBox7 {
-    width: 100%;
-  }
-  
-  .pieImage, .people2Image {
-    width: 100%; /* Adjust this width to your desired size */
-    object-fit: cover; /* Ensure the images cover the space without distortion */
-  }
-  
-/* .columns {
-    margin: 40px 250px;
-    display: flex;
-    justify-content: center;
-    gap: 5px; 
-  }
-  
-  .column {
-    flex: 1;
-  }
-  
-  .imageBox6, .imageBox7 {
-    width: 100%;
-  }
-  .pieImage, .people2Image {
-    width: 500px; 
-    object-fit: cover; 
-  } */
+    gap: 50px;
+}
 
+.column {
+    flex: 1;
+}
 
-  /* section 6 */
-  
-  .leftSecTitle {
+.imageBox6,
+.imageBox7 {
+    width: 100%;
+}
+
+.pieImage,
+.people2Image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* section 6 */
+
+.leftSecTitle {
     text-align: left;
     color: #adacac;
     margin: 0 250px;
-  }
-  .container4 {
+}
+
+.container4 {
     display: flex;
-    align-items: center; /* Vertically center the image and text */
-    justify-content: space-between; /* Add space between the image and text */
+    align-items: center;
+    justify-content: space-between;
     margin: 0 250px;
-  }
-  
-  .imageBox7 {
+}
+
+.imageBox7 {
     flex: 1;
-  }
-  
-  .cupImage {
-    width: 100%; /* Adjust the width of the image */
+}
+
+.cupImage {
+    width: 100%;
     height: auto;
-  }
-  
-  .text7 {
+}
+
+.text7 {
     flex: 2;
-    margin-left: 20px; /* Add space between the image and text */
+    margin-left: 20px;
     color: #a5a4a4;
-  }
-  
-  .middleSec,
-  .rightSec {
+}
+
+.middleSec,
+.rightSec {
     line-height: 1.5;
-  }
-  
-  
+}

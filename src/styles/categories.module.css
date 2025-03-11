@@ -1,36 +1,33 @@
-/* Container to center and evenly space content */
+
 .container {
-  display: flex;                /* Use Flexbox layout */
-  flex-direction: column;        /* Stack items vertically */
-  align-items: center;           /* Center items horizontally */
-  justify-content: center;       /* Center content vertically */
-  text-align: center;            /* Center the text */
-  padding: 20px;                 /* Add padding inside the container */
-  box-sizing: border-box;        /* Ensure padding doesn't affect container size */
-  max-width: 500px;              /* Set a consistent max width for all sections */
-  width: 100%;                   /* Ensure responsiveness */
-  margin: 0 auto;                /* Center content on the page */
+  display: flex;                
+  flex-direction: column;        
+  align-items: center;           
+  justify-content: center;       
+  text-align: center;            
+  padding: 20px;                 
+  box-sizing: border-box;        
+  max-width: 500px;              
+  width: 100%;                  
+  margin: 0 auto;                
 }
 
-/* Title styling */
 .title {
-  color: #555;                   /* Add color to the title */
-  margin-bottom: 15px;           /* Space between title and description */
-  font-weight: bold;             /* Make the title bold */
-  font-size: 2rem;               /* Set a readable font size */
+  color: #555;                   
+  margin-bottom: 15px;           
+  font-weight: bold;             
+  font-size: 2rem;               
 }
 
-/* SubTitle (h3) styling */
 .subTitle {
-  color: #555;                   /* Different color for subtitles */
-  margin-bottom: 10px;           /* Space between subtitle and content */
-  font-weight: bold;             /* Bold subtitle */
-  font-size: 1.5rem;             /* Slightly smaller size for the subtitle */
+  color: #555;                   
+  margin-bottom: 10px;           
+  font-weight: bold;             
+  font-size: 1.5rem;             
 }
 
-/* Description styling */
 .description {
-  color: #555;                   /* Dark gray color for the text */
-  max-width: 500px;              /* Limit width for better readability */
-  width: 100%;                   /* Ensure consistency across sections */
+  color: #555;                   
+  max-width: 500px;              
+  width: 100%;                   
 }

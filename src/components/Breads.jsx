@@ -1,4 +1,4 @@
-import styles from "../styles/categories.module.css"; // Assuming you have a CSS module for this component
+import styles from "../styles/categories.module.css"; 
 
 const Breads = () => {
   return (

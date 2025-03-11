@@ -55,18 +55,15 @@
   padding: 8px;
   width: 80%;
   margin-right: auto;
-  /* Aligns to the right */
   margin-left: 0;
-  /* Resets any right margin */
   border: 1px solid #ccc;
   border-radius: 5px;
   display: block;
-  /* Ensures the input takes a full line */
   margin-bottom: 30px;
-  /* Adds some space between the input and button */
 }
 
-.mailingListSection h3, p {
+.mailingListSection h3,
+p {
   margin-bottom: 30px;
 }
 
@@ -88,32 +85,26 @@
 .socialIcons {
   display: flex;
   gap: 15px;
-  /* Adds space between each icon */
   margin: 20px 0;
-  /* Optional, adds margin to top and bottom */
 }
 
 .socialIcons a {
   display: inline-block;
-  /* Ensures the anchor tags are inline-block */
 }
 
 .socialIcons img {
   width: 25px;
-  /* Small size for the icons */
   height: auto;
-  /* Maintains aspect ratio */
   transition: transform 0.3s ease;
-  /* Smooth transition for hover effect */
 }
 
 .socialIcons img:hover {
   transform: scale(1.1);
-  /* Slightly enlarge the icons when hovered */
 }
+
 .mailingListSection {
-  border: 2px solid #c7b88b; /* Adds a solid border around the section */
-  padding: 20px; /* Adds space inside the border */
-  border-radius: 10px; /* Optionally rounds the corners of the border */
+  border: 2px solid #c7b88b;
+  padding: 20px;
+  border-radius: 10px;
   height: 400px;
 }

@@ -94,6 +94,7 @@
 .navLinks a:hover, .logo a:hover {
   color: #e95a24;
 }
+/* for different screen sizes */
 @media screen and (max-width: 768px) {
   .navbar {
       flex-direction: column;
