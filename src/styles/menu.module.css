@@ -70,9 +70,9 @@
   margin-right: 20px; /* Space between the image and text */
 }
 
-.textContainer {
-  max-width: 1500px; /* Optional, to limit the text container width */
-}
+/* .textContainer {
+  /* max-width: 1500px; Optional, to limit the text container width */
+/* } */ 
 
 .sectionText {
   font-size: 16px;

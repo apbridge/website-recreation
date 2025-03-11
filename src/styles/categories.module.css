@@ -7,7 +7,7 @@
   text-align: center;            /* Center the text */
   padding: 20px;                 /* Add padding inside the container */
   box-sizing: border-box;        /* Ensure padding doesn't affect container size */
-  max-width: 700px;              /* Set a consistent max width for all sections */
+  max-width: 500px;              /* Set a consistent max width for all sections */
   width: 100%;                   /* Ensure responsiveness */
   margin: 0 auto;                /* Center content on the page */
 }
@@ -31,6 +31,6 @@
 /* Description styling */
 .description {
   color: #555;                   /* Dark gray color for the text */
-  max-width: 600px;              /* Limit width for better readability */
+  max-width: 500px;              /* Limit width for better readability */
   width: 100%;                   /* Ensure consistency across sections */
 }
