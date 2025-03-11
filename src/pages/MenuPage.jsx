@@ -1,6 +1,6 @@
 import Wrapper from "../components/Wrapper";
 import { useState } from "react";
-import styles from "../styles/menu.module.css";
+import styles from "../styles/menupage.module.css";
 import Special from "../components/Special";
 import Cakes from "../components/Cakes";
 import Cupcakes from "../components/Cupcakes";

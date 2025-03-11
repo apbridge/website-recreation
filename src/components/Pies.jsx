@@ -1,4 +1,4 @@
-import styles from "../styles/categories.module.css"; // Import CSS module
+import styles from "../styles/categories.module.css"; 
 
 const Pies = () => {
     return (

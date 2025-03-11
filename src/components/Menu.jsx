@@ -1,4 +1,4 @@
-import styles from '../styles/menu2.module.css';
+import styles from '../styles/menu.module.css';
 import cake1 from "../assets/cake1.jpg";
 import cake2 from "../assets/cake2.jpg";
 import cake3 from "../assets/cake3.jpg";
