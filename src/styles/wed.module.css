@@ -1,0 +1,262 @@
+/* Container setup */
+.container {
+    max-width: 1200px;
+    margin: 40px 150px;
+    padding: 0 2rem;
+  }
+
+  .heroImage {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  /* Headings */
+  .h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .h2-left {
+    text-align: left;
+    color: #333333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .h3 {
+    font-size: 1.25rem;
+    color: #333333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .p {
+    color: #767575;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Sections */
+  .section1,
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6 {
+    margin: 3rem 0;
+  }
+
+  .section4 {
+    text-align: center;
+  }
+
+  .h2Left {
+    text-align: left;
+  }
+  
+  .section2,
+  .section3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .textRight,
+  .textLeft,
+  .left,
+  .right {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .under {
+    margin-top: 2rem;
+  }
+  
+  /* Lists */
+  .ul {
+    padding-left: 1.25rem;
+    list-style-type: disc;
+  }
+  
+  .li {
+    color: #767575;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+ /* Gallery container */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 1rem;
+  }
+  
+  /* Gallery images */
+  .gallery img {
+    width: 100%; /* Makes the image fill the container's width */
+    height: 250px; /* Makes the image fill the container's height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio while filling the container */
+    border-radius: 4px; /* Optional: adds rounded corners to the images */
+  }
+
+  /* Cake4 Image */
+.cake4Image {
+    width: 100%; /* Ensures the image takes the full width of the container */
+    height: auto; /* Automatically adjusts the height to maintain the aspect ratio */
+    max-height: 150px; /* Adjust this value to make the image shorter */
+    object-fit: cover; /* Ensures the image covers the container, cropping if needed */
+    border-radius: 4px; /* Optional: adds rounded corners to the image */
+  }
+  
+  
+
+  .flexRow {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .sideImage {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .flexRowReverse {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  .section2b {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .textLeft {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .section2, .section2b {
+    display: flex;
+    align-items: stretch;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .textRight, .textLeft {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .sideImage {
+    flex: 1;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    max-width: 400px;
+  }
+  
+  
+  /* Styled Line */
+  .styledLine {
+    border: 1px solid #e95a24;
+    margin: 2rem 0;
+  }
+  
+  /* Q&A Section */
+  .qContainer {
+    display: flex;
+    align-items: flex-start;
+    margin: 2rem 0;
+    gap: 1rem;
+  }
+  
+  .qImage {
+    width: 40px;
+    height: auto;
+  }
+  
+  .sectionText1 {
+    font-size: 1.1rem;
+    color: #7a7979;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sectionText {
+    font-size: 1rem;
+    color: #767575;
+  }
+  
+  .textContainer {
+    flex: 1;
+  }
+  
+  /* Link */
+  .orangeLink {
+    color: #e95a24;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  /* Button */
+  .contactButton {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #c7b88b;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactButton:hover {
+    background-color: #b5a679;
+  }
+  .cake5 {
+    height: 500px; /* Adjust this value to make the image shorter or taller */
+    width: auto; /* This keeps the aspect ratio intact */
+    object-fit: cover; /* Ensures the image fills its container nicely without stretching */
+  }
+  
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .section2,
+    .section3 {
+      flex-direction: column;
+    }
+  
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  
+    .button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

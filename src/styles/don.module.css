@@ -1,0 +1,186 @@
+.container {
+    margin: 40px 150px;
+    padding: 0 4rem;
+    max-width: 1200px;
+}
+
+.styledLine {
+    border: 1px solid #e95a24;
+    margin-bottom: 20px;
+}
+
+.donation {
+    text-align: center;
+    padding: 2rem;
+    color: #333333;
+}
+
+.donation h2,
+.donation h3,
+.donation p {
+    text-align: center;
+    color: #333333;
+    padding: 0.5rem;
+}
+
+.donation h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.donation h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.donation p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #767676;
+    margin-bottom: 1rem;
+}
+
+.contact {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.inputWrapper {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submitButton {
+    display: block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #c7b88b;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 150px; /* Optional: restrict max width */
+    margin-left: 0; /* Align to the left */
+    margin-right: auto; /* Prevent right margin */
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #b5a679;
+}
+
+
+.submitButton:hover {
+    background-color: #b5a679;
+}
+
+.nameFields {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nameFields .inputWrapper {
+    width: 50%;
+}
+
+.formHeading,
+.formMiniHeading {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.formHeading {
+    font-size: 1rem;
+    color: #767676;
+}
+
+.formMiniHeading {
+    font-size: 1rem;
+    color: #767676;
+}
+
+.p {
+    text-align: center;
+    color: #767676;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Stack name fields vertically on smaller screens */
+    .nameFields {
+        display: block;
+        gap: 0;
+    }
+
+    /* Input wrapper takes full width on small screens */
+    .inputWrapper {
+        width: 100%;
+    }
+
+    /* Align submit button to full width on smaller screens */
+    .submitButton {
+        width: 100%;
+        max-width: none; /* Make sure it takes up full width */
+    }
+
+    /* Adjust the margins for smaller screens */
+    .container, .contact, .donation {
+        margin: 20px;
+    }
+
+    /* Smaller padding for inputs on smaller screens */
+    .input, .textarea {
+        padding: 0.5rem;
+    }
+
+    /* Smaller text for headings */
+    .h2 {
+        font-size: 1.25rem;
+    }
+
+    .h3 {
+        font-size: 1rem;
+    }
+
+    .p {
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .h2 {
+        font-size: 1.1rem;
+    }
+
+    .h3 {
+        font-size: 0.9rem;
+    }
+
+    .p {
+        font-size: 0.8rem;
+    }
+}

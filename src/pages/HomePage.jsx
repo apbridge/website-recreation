@@ -35,7 +35,7 @@ const HomePage = () => {
               There is always something new and exciting to discover at our bakery. From seasonal favorites to new additions, DeEtta's has baked goods for every occasion.
             </p>
             <Link to="/menu">
-              <button className={styles.menuButton1}>Seasonal Offerings</button>
+              <button className={styles.menuButton1} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Seasonal Offerings</button>
             </Link>
           </div>
         </div>
@@ -55,7 +55,7 @@ const HomePage = () => {
             <h2 className={styles.title}>Fresh Bread</h2>
             <p className={styles.description}>There is nothing like the aroma and taste of freshly-baked bread. We use traditional methods (without additives or preservatives) to ensure the best taste and quality possible. You can find us working in the wee hours of the morning mixing, kneading, and making each loaf by hand.</p>
             <Link to="/menu">
-              <button className={styles.menuButton2}>View Menu</button>
+              <button className={styles.menuButton2} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>View Menu</button>
             </Link>
           </div>
           <div className={styles.col3}>
@@ -79,7 +79,7 @@ const HomePage = () => {
               Owners Kevin and Morgan Tyschper work closely with an incredible team to serve up delicious, hand-made baked goods to DeEtta's fans both near and far.
             </p>
             <Link to="/about">
-              <button className={styles.aboutButton3}>About DeEtta's</button>
+              <button className={styles.aboutButton3} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>About DeEtta's</button>
             </Link>
           </div>
         </div>

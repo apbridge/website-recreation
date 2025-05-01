@@ -29,7 +29,8 @@ const Navbar = () => {
     "/contact": { text: "GET IN TOUCH", image: null, subText: "We look forward to hearing from you."},
     "/weddings": { text: "WEDDINGS", image: null, subText: "Cakes, dessert tables, and favors ... oh my!" },
     "/news": { text: "NEWS", image: null, subText: "Keep up with happenings at the bakery and beyond!"},
-    "/services": { text: "SERVICES", image: null, subText: "Baked goods for every occasion." }
+    "/services": { text: "SERVICES", image: null, subText: "Baked goods for every occasion." },
+    "/donation-request": { text: "DONATION REQUEST FORM", image: null, subText: "We look forward to hearing from you."}
   };
   const backgroundImage = backgroundImages[location.pathname] || `url(${about})`;
   const pageHeader = pageHeaders[location.pathname] || {text: "Page Not Found"};
