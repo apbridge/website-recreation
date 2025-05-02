@@ -1,0 +1,34 @@
+.toggleBar {
+    /* position: fixed; */
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #f2f2f2; /* Light grey */
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    z-index: 100; /* Ensure it’s on top of other elements */
+  }
+  
+  .toggleButton {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #444;
+    padding: 0.5rem 1rem;
+    all: unset; /* Completely removes all default styling */
+  }
+
+  .toggleButton:hover {
+    text-decoration: underline;
+    color: inherit;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+  }
+  
+  .p {
+    margin-top: 30px;
+  }
+  

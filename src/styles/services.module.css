@@ -1,0 +1,35 @@
+.container {
+    margin: 40px 150px;
+}
+.h2 {
+    text-align: left;
+    color: #7a7a7a;
+}
+.styledLine {
+    border: 1px solid #e95a24;
+    margin: 20px 150px;
+  }
+  .qContainer {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .qImage {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+  }
+  
+  .sectionText, .p {
+    font-size: 16px;
+    color: #767575;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .sectionText1 {
+    font-size: 20px;
+    color: #7a7979;
+    margin: 10px 0;
+    font-weight: bold;
+  }

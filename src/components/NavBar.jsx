@@ -8,6 +8,12 @@ import weddings from "../assets/weddings.jpg";
 import news from "../assets/news.jpg";
 import services from "../assets/services.jpg";
 import logo from "../assets/main-logo.png"; 
+import news1 from "../assets/news1.jpg";
+import news2 from "../assets/news2.jpg";
+import news3 from "../assets/news3.jpg";
+import news4 from "../assets/news4.jpg";
+import news5 from "../assets/news5.jpg";
+import news6 from "../assets/news6.jpg";
 
 const Navbar = () => {
   const location = useLocation();
@@ -19,7 +25,13 @@ const Navbar = () => {
     "/contact": `url(${contact})`,
     "/weddings": `url(${weddings})`,
     "/news": `url(${news})`,
-    "/services": `url(${services})`
+    "/services": `url(${services})`,
+    "/celebrate-america": `url(${news1})`,
+    "/doughnuts-and-dads": `url(${news2})`,
+    "/mothers-day": `url(${news3})`,
+    "/spring": `url(${news4})`,
+    "/anniversary": `url(${news5})`,
+    "/love": `url(${news6})`,
   };
   //add the content that goes over top of the background images
   const pageHeaders = {
@@ -30,7 +42,13 @@ const Navbar = () => {
     "/weddings": { text: "WEDDINGS", image: null, subText: "Cakes, dessert tables, and favors ... oh my!" },
     "/news": { text: "NEWS", image: null, subText: "Keep up with happenings at the bakery and beyond!"},
     "/services": { text: "SERVICES", image: null, subText: "Baked goods for every occasion." },
-    "/donation-request": { text: "DONATION REQUEST FORM", image: null, subText: "We look forward to hearing from you."}
+    "/donation-request": { text: "DONATION REQUEST FORM", image: null, subText: "We look forward to hearing from you."},
+    "/celebrate-america": { text: "CELEBRATING AMERICA", image: null, subText: "July 1, 2016 | by Morgan Tyschper"},
+    "/doughnuts-and-dads": { text: "DOUGHNUTS AND DADS", image: null, subText: "June 7, 2016 | by Kevin Tyschper"},
+    "/mothers-day": { text: "MOTHER'S DAY", image: null, subText: "May 6, 2016 | by Morgan Tyschper"},
+    "/spring": { text: "HELLO SPRING", image: null, subText: "April 5, 2016 | by Morgan Tyschper"},
+    "/anniversary": { text: "THANK YOU! CELEBRATING OUR ANNIVERSARY", image: null, subText: "March 5, 2016 | by Morgan Tyschper"},
+    "/love": { text: "LOVE IS IN THE AIR! BRING ON THE DELICIOUS SWEETS.", image: null, subText: "February 5, 2016 | by Morgan Tyschper"},
   };
   const backgroundImage = backgroundImages[location.pathname] || `url(${about})`;
   const pageHeader = pageHeaders[location.pathname] || {text: "Page Not Found"};
